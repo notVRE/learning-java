@@ -22,6 +22,12 @@ public class Swap {
         // Implement here
         // asking for the two indices
         // and then swapping them
+        System.out.println("Give two indices to swap: ");
+        int i1 = Integer.valueOf(scanner.nextLine());
+        int i2 = Integer.valueOf(scanner.nextLine());
+        int ind = array[i1];
+        array[i1] = array[i2];
+        array[i2] = ind;
 
         System.out.println("");
         index = 0;
