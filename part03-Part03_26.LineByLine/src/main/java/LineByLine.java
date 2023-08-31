@@ -7,5 +7,17 @@ public class LineByLine {
         Scanner scanner = new Scanner(System.in);
 
 
+        while (true) {
+            String spt = scanner.nextLine();
+            String [] piece = spt.split(" ");
+            for (String string : piece) {
+            System.out.println(string);
+            }
+            if (spt.equals("")) {
+                break;
+            }
+        }
+
+
     }
 }
