@@ -1,7 +1,3 @@
-/*
- *  Do not change the behavior of this class
- */
-
 public class Person {
 
     private String name;

@@ -2,7 +2,6 @@
 public class Main {
 
     public static void main(String[] args) {
-        // write experimental code here to check how your program functions
         HealthStation childrensHospital = new HealthStation();
 
         Person ethan = new Person("Ethan", 1, 110, 7);
