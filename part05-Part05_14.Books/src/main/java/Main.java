@@ -27,7 +27,6 @@ public class Main {
 
         }
         
-        // NB! Don't alter the line below!
         System.out.println("Thank you! Books added: " + books.size());
     }
 }
