@@ -10,9 +10,5 @@ public class Main {
 
         ui ui = new ui(average, scanner);
         ui.start();
-        
-        // Write your program here -- consider breaking the program into 
-        // multiple classes.
-        
     }
 }

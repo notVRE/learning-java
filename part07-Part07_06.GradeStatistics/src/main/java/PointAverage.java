@@ -22,4 +22,22 @@ public class PointAverage {
 
         return avg;
     }
+
+    public double passingPoint(){
+        double totalPassingPoints = 0.0;
+        int countPassingPoints = 0;
+
+        for (double point : points) {
+            if (point >= 50) {
+                totalPassingPoints += point;
+                countPassingPoints++;
+            }
+        }
+
+        if (countPassingPoints > 0) {
+            return totalPassingPoints / countPassingPoints;
+        } else {
+            return -1.0;
+        }
+    }
 }

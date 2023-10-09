@@ -13,7 +13,11 @@ public class ui {
         System.out.println("Enter point totals, -1 stops:");
         readAvg();
         System.out.println("Point average (all): " + average.averageOfPoints());
-        System.out.println();
+        if (average.passingPoint() >= 0) {
+            System.out.println("Point average (passing): " + average.passingPoint());
+        } else {
+            System.out.println("Point average (passing): -" );
+        }
     }
 
     public void readAvg(){
