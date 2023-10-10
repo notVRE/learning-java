@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        PointAverage average = new PointAverage();
-
-        ui ui = new ui(average, scanner);
+        Points points = new Points();
+        UserInterface ui = new UserInterface(points, scanner);
         ui.start();
+
     }
 }
